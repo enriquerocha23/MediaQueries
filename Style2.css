@@ -1,0 +1,26 @@
+.Div{
+    background-color: green;
+    font-size: 40px;
+}
+
+@media(min-width: 500px) and (max-width:740px) {
+    .Div{
+        background-color: red;
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 300px) and (max-width:500px) {
+    .Div{
+        background-color: red;
+        font-size: 30px;
+    }
+}   
+
+@media(min-width: 300px) and (max-width:500px) {
+    .Div{
+        background-color: yellow;
+        font-size: 25px;
+        color: white;
+    }
+}

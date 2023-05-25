@@ -1,0 +1,14 @@
+.green{
+    background-color: green;
+}
+@media(min-width: 500px) and (max-width:740px) {
+    .green{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .green{
+        background-color: blue;
+    }
+}
